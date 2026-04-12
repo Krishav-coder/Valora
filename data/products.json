@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Nova Wireless Headphones",
+    "category": "Audio",
+    "price": 129.99,
+    "tagline": "Lightweight sound with all-day comfort.",
+    "description": "A starter product page example with a clean layout, clear pricing, and an easy call to action. Replace this with your own mock catalog as the project grows.",
+    "image": "assets/images/products/headphones.svg"
+  },
+  {
+    "id": 2,
+    "title": "Elevate Laptop Stand",
+    "category": "Workspace",
+    "price": 54.0,
+    "tagline": "Simple ergonomic support for your desk.",
+    "description": "Use this product data file for mock API-driven UI during frontend development. Later you can swap the JSON file for a backend endpoint with minimal changes.",
+    "image": "assets/images/products/laptop-stand.svg"
+  },
+  {
+    "id": 3,
+    "title": "Drip Pro Coffee Maker",
+    "category": "Kitchen",
+    "price": 89.5,
+    "tagline": "A reliable daily brew with a modern finish.",
+    "description": "This project structure keeps product data, product rendering, and page logic separate so features stay easy to maintain as your catalog becomes larger.",
+    "image": "assets/images/products/coffee-maker.svg"
+  },
+  {
+    "id": 4,
+    "title": "Halo Desk Lamp",
+    "category": "Lighting",
+    "price": 42.25,
+    "tagline": "Warm task lighting for late-night study sessions.",
+    "description": "A simple component and page split helps you add filters, reviews, wishlists, and backend APIs later without rewriting the whole project.",
+    "image": "assets/images/products/desk-lamp.svg"
+  }
+]
