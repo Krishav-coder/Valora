@@ -1,0 +1,14 @@
+.cart {
+    height: 242px;
+    width: 95%;
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#img {
+    height: 205px;
+    width: 358px;
+    padding-top: 30px;
+}
