@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    background-color: #f5f6f6;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-nav-bar {
+    height: 39px;
+    width: 100%;
+    background-color: #232f3e;
+}
+
+.back-img {
+    height: 600px;
+    width: 100%;
+    background-image: url(/assets/images/banner.jpg);
+    background-size: cover;
+}
+
+#info {
+    width: 95%;
+    background-color: #f5f6f6;
+    padding: 10px 14px;
+}
+
+#item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#long {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.long-ad {
+    height: 285px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+#recent {
+    height: 245px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top {
+    height: 49px;
+    width: 100%;
+    background-color: rgb(10, 52, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.up-foot {
+    height: 250px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    color: white;
+}
