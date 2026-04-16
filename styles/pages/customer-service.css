@@ -1,0 +1,57 @@
+/* ===== CUSTOMER SERVICE PAGE ===== */
+
+body{
+    background-color: #007185;
+}
+/* Top section (blue bar under navbar) */
+.nav-cc {
+    height: 60px;
+    width: 100%;
+    background-color: #007185;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Main content wrapper */
+.content {
+    padding: 45px 0 45px 100px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+/* Cards / boxes */
+.box,
+.box2,
+.box3 {
+    height: 95px;
+    width: 367px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Spacing adjustments */
+.box2 {
+    margin-left: 70px;
+}
+
+.box3 {
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+/* Customer care links */
+.cc {
+    color: aliceblue;
+    text-decoration: none;
+    height: 20px;
+    width: 126px;
+    text-align: center;
+    display: inline-block;
+}
+
+.cc:hover {
+    text-decoration: underline;
+}
