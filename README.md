@@ -1,19 +1,20 @@
 # Valora
 
-Valora is a frontend-focused e-commerce interface inspired by Amazon. The project is being built as a scalable UI practice exercise, with an emphasis on layout structure, reusable styling, and marketplace-style page composition using standard web technologies.
+Valora is a frontend-focused e-commerce interface built as a scalable UI practice exercise. The project emphasizes layout structure, reusable styling, and marketplace-style page composition using standard web technologies.
 
 ## Description
 
-This project recreates the core visual experience of a modern online storefront, starting with an Amazon-like homepage and a growing set of connected content pages. It is intended as a portfolio-quality frontend build that demonstrates component-oriented styling, organized asset management, and a foundation for future interactive and backend-driven features.
+This project recreates the core visual experience of a modern online storefront, starting with a Valora-branded homepage and a growing set of connected content pages. It is intended as a portfolio-quality frontend build that demonstrates component-oriented styling, organized asset management, and a foundation for future interactive and backend-driven features.
 
 ## Features
 
-- Amazon-inspired homepage layout
+- Valora-branded homepage layout
 - Multi-section navigation bar with search UI
 - Promotional hero/banner area
 - Category and product-style content cards
 - Horizontal deal and recommendation sections
-- Connected gift card, customer service, fraud prevention, registry, and gift request pages
+- Connected gift card, customer service, digital services, fraud prevention, registry, and gift request pages
+- Dedicated Valora gift card page and customer care support hub
 - Shared top navigation across the main pages
 - Footer modeled after large e-commerce platforms
 - Dedicated cart page structure
@@ -32,22 +33,29 @@ Valora/
 |-- README.md
 |-- pages/
 |   |-- Cart.html
+|   |-- Customer-Care-Digital-Services.html
+|   |-- Customer_Service.html
 |   |-- customer-service.html
 |   |-- Fraud-prevention.html
 |   |-- Gift-card.html
 |   |-- Gift-request.html
-|   `-- Registry.html
+|   |-- Registry.html
+|   |-- Special-Gift-cards.html
+|   `-- Valora-gift-card.html
 |-- styles/
 |   |-- layout.css
 |   |-- components.css
 |   |-- main.css
 |   `-- pages/
 |       |-- cart.css
+|       |-- customer-care-digital-services.css
 |       |-- customer-service.css
 |       |-- fraud-prevention.css
 |       |-- gift-card.css
 |       |-- gift-request.css
-|       `-- registry.css
+|       |-- registry.css
+|       |-- special-gift-cards.css
+|       `-- valora-gift-card.css
 |-- assets/
 |   |-- images/
 |   |-- icons/
@@ -63,7 +71,7 @@ Valora/
 1. Clone the repository.
 2. Open the project folder in your editor.
 3. Launch `index.html` in a browser to view the homepage.
-4. Use the shared navigation to move between the cart, customer service, gift cards, fraud prevention, registry, and gift request pages.
+4. Use the shared navigation to move between the cart, customer service, digital services, gift cards, fraud prevention, registry, and gift request pages.
 
 For the best development workflow, use a local static server such as VS Code Live Server.
 
