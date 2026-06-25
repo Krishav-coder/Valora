@@ -27,6 +27,7 @@ This project recreates the core visual experience of a modern online storefront,
 
 ## Project Structure
 
+
 ```text
 Valora/
 |-- index.html
